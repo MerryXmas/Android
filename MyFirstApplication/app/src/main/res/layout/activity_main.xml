@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:gravity="center"
+
+        >
+    <Button
+        android:id="@+id/create_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="点创建数据库"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:id="@+id/write_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="点击存储数据"
+        android:layout_marginBottom="20dp"
+
+        />
+    <Button
+        android:id="@+id/read_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:text="点击读取数据"/>
+    <Button
+        android:id="@+id/delete_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="点删除数据库"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/data"
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:text="打印数据:"
+        android:gravity="left"
+        android:editable="false"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/list_Data"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:divider="#f00"
+            android:dividerHeight="1dp"></ListView>
+    </LinearLayout>
+
+</LinearLayout>

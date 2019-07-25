@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myfirstapplication">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -10,21 +11,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WebViewActivity">
+        <activity android:name=".IntentTestActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HttpTestActivity">
+        <activity android:name=".WebViewActivity">
+
+            <!-- android:theme="@android :style/Theme.NoTitleBar.Fullscreen" -->
 
         </activity>
+        <activity android:name=".HttpTestActivity"></activity>
         <activity android:name=".GridLayoutActivity" />
         <activity android:name=".TableLayoutActivity" />
         <activity android:name=".ForthActivity" />
         <activity android:name=".ThirdActivity" />
-        <activity android:name=".SecondActivity"></activity>
+        <activity android:name=".SecondActivity" />
         <activity android:name=".MainActivity" />
     </application>
 

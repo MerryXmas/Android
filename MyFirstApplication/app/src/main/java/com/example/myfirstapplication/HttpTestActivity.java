@@ -70,8 +70,6 @@ public class HttpTestActivity extends AppCompatActivity {
                         result.append(line);
                     }
                     show(result.toString());
-
-
                 }catch (Exception e) {
                     e.printStackTrace();
                 } finally{
@@ -116,7 +114,5 @@ public class HttpTestActivity extends AppCompatActivity {
         } catch (JSONException e) {
             e.printStackTrace();
         }
-
     }
-
 }

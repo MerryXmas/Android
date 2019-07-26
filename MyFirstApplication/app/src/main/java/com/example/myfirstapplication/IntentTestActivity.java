@@ -69,6 +69,20 @@ public class IntentTestActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        findViewById(R.id.adapter_btn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(IntentTestActivity.this,AdapterActivity.class);
+                startActivity(intent);
+            }
+        });
+        findViewById(R.id.download_btn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(IntentTestActivity.this,DownloadTestActivity.class);
+                startActivity(intent);
+            }
+        });
 
 
     }

@@ -56,5 +56,17 @@
         android:layout_marginTop="10dp"
         android:layout_width="200dp"
         android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/adapter_btn"
+        android:text="Adapter  demo"
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/download_btn"
+        android:text="Download  demo"
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
